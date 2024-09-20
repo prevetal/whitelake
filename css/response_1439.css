@@ -365,8 +365,15 @@
     /*-----------------
         Main slider
     -----------------*/
+    .main_slider .swiper
+    {
+        min-height: 650px;
+    }
+
+
     .main_slider .swiper .cont
     {
+        min-height: 650px;
         padding-top: 160px;
         padding-bottom: 54px;
     }
@@ -391,6 +398,7 @@
 
     .main_slider .data
     {
+        min-height: 650px;
         padding-top: 380px;
         padding-bottom: 54px;
     }
