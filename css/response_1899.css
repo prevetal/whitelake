@@ -1,0 +1,128 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .block.border
+    {
+        padding-bottom: 100px;
+    }
+
+    .block.border:after
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .cont
+    {
+        padding: 0 40px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        margin-bottom: 48px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .search
+    {
+        width: 480px;
+    }
+
+
+
+    /*-----------------
+        Search tips
+    -----------------*/
+    .search_tips .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .search_tips .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Detailing
+    ---------------*/
+    .detailing .swiper-slide
+    {
+        width: 332px;
+    }
+
+
+
+    /*-----------
+        Ideas
+    -----------*/
+    .ideas .item
+    {
+        height: 320px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -48px;
+    }
+
+
+    .products .row > *
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: 21px;
+
+        width: 280px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .row
+    {
+        margin-bottom: -60px;
+    }
+
+
+    .reviews .row > *
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .reviews .all_link
+    {
+        margin-top: 60px;
+    }
+}

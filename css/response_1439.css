@@ -1,0 +1,748 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 48px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .block.border
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 64px;
+        height: 40px;
+        margin-bottom: 36px;
+    }
+
+
+    .swiper-button-prev
+    {
+        right: 72px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 32px;
+    }
+
+
+    .all_link a
+    {
+        font-size: 12px;
+
+        letter-spacing: .96px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        margin-top: -7px;
+    }
+
+
+    header .logo img
+    {
+        width: 168px;
+    }
+
+
+    header .search
+    {
+        width: 364px;
+        margin-top: 5px;
+        margin-left: 24px;
+    }
+
+
+    header .phone
+    {
+        font-size: 18px;
+
+        letter-spacing: -.18px;
+    }
+
+
+    header .messengers
+    {
+        gap: 4px;
+    }
+
+
+    header .localization
+    {
+        margin-left: 16px;
+    }
+
+
+    header .send_idea_btn
+    {
+        margin-left: 16px;
+    }
+
+
+    header .catalog .mini_modal
+    {
+        width: 464px;
+        padding: 20px;
+    }
+
+
+    header .catalog .title
+    {
+        margin-bottom: 12px;
+    }
+
+
+    header .catalog .items .border
+    {
+        padding-bottom: 8px;
+    }
+
+
+    header .favorite
+    {
+        margin-left: 4px;
+    }
+
+
+    header .menu
+    {
+        margin-left: 14px;
+
+        gap: 14px;
+    }
+
+
+    header .menu_item > a .arr
+    {
+        margin-left: 0;
+    }
+
+
+    header .menu_item > a .count
+    {
+        font-size: 10px;
+
+        letter-spacing: -.1px;
+    }
+
+
+    header .sub_menu
+    {
+        min-width: 240px;
+        padding: 20px;
+    }
+
+
+    header .sub_menu .columns
+    {
+        column-gap: 16px;
+    }
+
+
+    header .sub_menu .columns > *
+    {
+        width: 160px;
+    }
+
+    header .sub_menu .columns > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+
+    header.fixed .search
+    {
+        left: 232px;
+    }
+
+
+    header.fixed .contacts
+    {
+        right: 205px;
+    }
+
+
+    header.fixed .send_idea_btn
+    {
+        right: 40px;
+    }
+
+
+
+    /*-----------------
+        Search tips
+    -----------------*/
+    .search_tips
+    {
+        padding-top: 91px;
+        padding-bottom: 24px;
+    }
+
+
+    .search_tips .data,
+    .search_tips .result
+    {
+        padding-right: 192px;
+        padding-left: 192px;
+    }
+
+
+    .search_tips .title
+    {
+        font-size: 12px;
+
+        margin-bottom: 12px;
+
+        letter-spacing: .96px;
+    }
+
+
+    .search_tips * + .result
+    {
+        margin-top: 16px;
+    }
+
+
+    .search_tips .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .search_tips .all
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .search_tips .row
+    {
+        margin-bottom: -8px;
+        margin-left: -32px;
+    }
+
+
+    .search_tips .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-bottom: 8px;
+        margin-left: 32px;
+    }
+
+
+    .search_tips .result .row
+    {
+        margin-left: -40px;
+    }
+
+
+    .search_tips .result .row > *
+    {
+        width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+
+    .search_tips .product .thumb
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .search_tips .product .thumb + *
+    {
+        width: 272px;
+        max-width: calc(100% - 72px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        height: 40px;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 4px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 12px;
+
+        letter-spacing: .96px;
+    }
+
+
+    .form .agree
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+    .block_head.small_m
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .block_head .pre_title
+    {
+        margin-bottom: 12px;
+
+        letter-spacing: 1.12px;
+    }
+
+
+    .block_head .title
+    {
+        letter-spacing: -.48px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 18px;
+
+        width: 556px;
+        margin-top: 24px;
+
+        letter-spacing: -.18px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .swiper .cont
+    {
+        padding-top: 160px;
+        padding-bottom: 54px;
+    }
+
+
+    .main_slider .swiper .title
+    {
+        font-size: 32px;
+
+        width: 556px;
+
+        letter-spacing: -.64px;
+    }
+
+
+    .main_slider .swiper .img
+    {
+        object-position: 90% 50%;
+    }
+
+
+
+    .main_slider .data
+    {
+        padding-top: 380px;
+        padding-bottom: 54px;
+    }
+
+
+    .main_slider .data .label
+    {
+        font-size: 12px;
+
+        margin-bottom: 12px;
+
+        letter-spacing: .96px;
+    }
+
+
+    .main_slider .data .row
+    {
+        margin-bottom: -13px;
+        margin-left: -24px;
+    }
+
+
+    .main_slider .data .row > *
+    {
+        margin-bottom: 13px;
+        margin-left: 24px;
+    }
+
+
+    .main_slider .data .btn
+    {
+        font-size: 18px;
+
+        letter-spacing: -.18px;
+    }
+
+
+    .main_slider .data .btn .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .main_slider .categories,
+    .main_slider .certs
+    {
+        width: 556px;
+    }
+
+
+    .main_slider .certs
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------
+        Detailing
+    ---------------*/
+    .detailing .swiper-slide
+    {
+        width: 304px;
+    }
+
+
+    .detailing .item .video_btn
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*-----------
+        Ideas
+    -----------*/
+    .ideas .block_head .desc
+    {
+        flex-direction: column;
+
+        gap: 16px;
+    }
+
+
+    .ideas .block_head .desc > span,
+    .ideas .block_head .desc > span ~ span
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .ideas .block_head .send_idea_btn
+    {
+        font-size: 12px;
+
+        letter-spacing: .96px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -32px;
+    }
+
+
+    .products .row > *
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .products .product .favorite_btn
+    {
+        top: 8px;
+        right: 8px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .products .product .favorite_btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .products .product .images
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .products .product .articul
+    {
+        font-size: 8px;
+
+        align-content: flex-end;
+        align-items: flex-end;
+
+        width: 52px;
+        height: 23px;
+        padding-top: 0;
+
+        letter-spacing: .64px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: 18px;
+
+        width: 242px;
+
+        letter-spacing: -.18px;
+    }
+
+
+    .products .product .prices
+    {
+        margin-top: 16px;
+    }
+
+
+    .products .product .prices .label
+    {
+        font-size: 9px;
+
+        letter-spacing: .72px;
+    }
+
+
+    .products .product .prices .price
+    {
+        font-size: 20px;
+
+        letter-spacing: -.2px;
+    }
+
+
+    .products .product .prices .sep
+    {
+        height: 30px;
+        margin: 0 12px;
+    }
+
+
+    .products .product .prices .exp
+    {
+        font-size: 9px;
+
+        letter-spacing: .72px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .rating
+    {
+        margin-bottom: 24px;
+
+        gap: 6px;
+    }
+
+
+    .reviews .rating > *
+    {
+        height: 32px;
+        padding-right: 19px;
+    }
+
+
+    .reviews .rating .logo
+    {
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+    }
+
+
+    .reviews .rating .star
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .reviews .rating .val
+    {
+        font-size: 18px;
+
+        letter-spacing: -.18px;
+    }
+
+
+    .reviews .rating .count
+    {
+        font-size: 8px;
+    }
+
+
+    .reviews .rating .ya
+    {
+        width: 161px;
+    }
+
+    .reviews .rating .google
+    {
+        width: 155px;
+    }
+
+
+    .reviews .row
+    {
+        margin-bottom: -24px;
+    }
+
+
+    .reviews .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .reviews .review
+    {
+        font-size: 16px;
+    }
+
+
+    .reviews .review .text
+    {
+        height: 147px;
+        margin-bottom: 20px;
+        padding: 16px;
+    }
+
+
+    .reviews .all_link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .center .col
+    {
+        min-width: 201px;
+    }
+
+
+    footer .rating .google
+    {
+        width: 201px;
+
+        background: url(../images/bg_footer_ya_rating.svg) 0 0/100% 100% no-repeat;
+    }
+
+
+    footer .contacts
+    {
+        width: 283px;
+    }
+
+
+    footer .socials a
+    {
+        min-width: 86px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 432px;
+        padding: 40px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+
+        letter-spacing: -.24px;
+    }
+
+
+    .modal_desc
+    {
+        margin-top: 8px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 16px;
+    }
+}
